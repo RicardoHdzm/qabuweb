@@ -215,7 +215,7 @@ p{
   border-radius: 15px;
   color: #caa65e;
   padding: 10px;
-  transition: 0.5s;
+  transition: 0.2s;
   width: 300px;
   text-transform: uppercase;
 }
@@ -440,8 +440,11 @@ small{
 
 input, .form-control {
   margin-top: 10px;
-  padding: 10px;
-  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #000;
   background-color: #f1efe9;
   border: thin solid #fff;
   border-radius: 15px;
@@ -453,8 +456,8 @@ input, .form-control {
   background-color: #f1efe9;
   outline: none;
   box-shadow: none;
-  color: #ff8800;
-  border-color: #ff8800;
+  color: #000;
+  border-color: #38746c;
 }
 
 .form-border{
@@ -780,4 +783,50 @@ textarea{
 
 #mid-v h2{
   color: #000;
+}
+
+.back1{
+  background-color: #f1efe9;
+}
+
+.back1 .btn{
+  background-color: #caa65e;
+  border-color: #caa65e;
+  color: #fff;
+}
+
+.back1 .btn:hover{
+  background-color: #a2854b;
+  border-color: #a2854b;
+  color: #fff;
+}
+
+.back2{
+  background-color: #fff;
+}
+
+.back2 .btn{
+  background-color: #38746c;
+  border-color: #38746c;
+  color: #fff;
+}
+
+.back2 .btn:hover{
+  background-color: #2d5d56;
+  border-color: #2d5d56;
+  color: #fff;
+}
+
+.modelo{
+  width: 20rem;
+}
+
+.render{
+  width: 90%;
+}
+
+.section-m ul{
+  color: #000;
+  font-size: 1.5rem;
+  list-style-position: inside;
 }
