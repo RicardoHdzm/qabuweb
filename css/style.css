@@ -438,7 +438,7 @@ small{
 
 /* FORM */
 
-input, .form-control {
+.form-control {
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -459,6 +459,39 @@ input, .form-control {
   color: #000;
   border-color: #38746c;
 }
+
+.custom-checkbox {
+    appearance: none!important;
+    -webkit-appearance: none;
+    background-color: #525050;
+    border: 2px solid #525050;
+    border-radius: 5px; /* Para que sea completamente cuadrado */
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Check blanco centrado */
+.custom-checkbox:checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.form-check-label{
+  font-size: 1.2rem;
+}
+
+
+
 
 .form-border{
   border: thin solid #fff;
@@ -830,3 +863,5 @@ textarea{
   font-size: 1.5rem;
   list-style-position: inside;
 }
+
+
