@@ -367,7 +367,6 @@ option{
   background-size: cover;
   color: #fff;
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .footer p{
@@ -461,29 +460,29 @@ small{
 }
 
 .custom-checkbox {
-    appearance: none!important;
-    -webkit-appearance: none;
-    background-color: #525050;
-    border: 2px solid #525050;
-    border-radius: 5px; /* Para que sea completamente cuadrado */
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
+  appearance: none!important;
+  -webkit-appearance: none;
+  background-color: #525050;
+  border: 2px solid #525050;
+  border-radius: 5px; /* Para que sea completamente cuadrado */
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
 }
 
 /* Check blanco centrado */
 .custom-checkbox:checked::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 6px;
-    height: 12px;
-    border: solid #fff;
-    border-width: 0 2px 2px 0;
-    transform: translate(-50%, -50%) rotate(45deg);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .form-check-label{
@@ -565,6 +564,18 @@ textarea{
 
   .navbar{
     background-color: rgba(0, 0, 0, .5);
+  }
+
+  .footer-copy{
+    text-align: center;
+  }
+
+  .footer-copy p{
+    font-size: 1rem;
+  }
+
+  .footicon{
+    width: 10rem!important;
   }
 
 
@@ -793,7 +804,7 @@ textarea{
 
 .footicon{
   width: 5.5rem;
-  margin: 2.5rem;
+  margin: 4.5rem;
 }
 
 .fa-solid{
@@ -802,9 +813,17 @@ textarea{
 }
 
 .map {
-  width: 100vw;
-  background-color: #072736;
+    position: relative;
+    width: 100vw; /* ajusta según tu diseño */
+    height: 100vh;
+    overflow: hidden;
 }
+
+.map h3{
+  color: #000;
+  font-style: italic;
+}
+
 
 .img-map {
   width: 100%!important;
@@ -819,7 +838,7 @@ textarea{
 }
 
 .back1{
-  background-color: #f1efe9;
+  background-color: #fff;
 }
 
 .back1 .btn{
@@ -855,13 +874,43 @@ textarea{
 }
 
 .render{
-  width: 90%;
+  width: 150%;
+  position
 }
 
-.section-m ul{
+.s-modelo ul{
   color: #000;
   font-size: 1.5rem;
   list-style-position: inside;
+}
+
+
+.fondo-columna {
+    background-color: #f1efe9;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    z-index: 0;
+}
+
+.fondo-columna2 {
+    background-color: #f1efe9;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    z-index: 0;
+}
+
+.figura-decorativa,
+.figura-decorativa2 {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    background-color: transparent; /* O blanco si quieres destacar más */
+    border-radius: 20px;
+}
+
+.s-modelo {
+    min-height: 600px; /* Puedes ajustar según necesidad */
+    position: relative;
 }
 
 
