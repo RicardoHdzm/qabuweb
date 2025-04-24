@@ -50,7 +50,7 @@ h1{
   font-size: 4.5rem;
   font-weight: bolder;
   letter-spacing: 2px;
-  color: #fff;
+  color: #000;
 }
 
 .qabu {
@@ -63,6 +63,10 @@ h1{
   justify-content: center;
   background-color: #000;
   pointer-events: none;
+}
+
+.qabu h1{
+  color: #fff;
 }
 
 .home-text{
@@ -103,6 +107,10 @@ h1{
   background-color: #000;
 }
 
+.mid-video h3{
+  color: #fff;
+}
+
 .contenido {
   position: relative;
   z-index: 1; /* Para estar encima del video */
@@ -119,7 +127,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 500;
-  color: #fff;
+  color: #000;
 }
 
 .section-m h3{
@@ -278,6 +286,13 @@ option{
   color: #000;
 }
 
+.section-modelos{
+  height: 100vh;
+  background-color: #f1efe9;
+  color: #000;
+}
+
+
 .section-s h3{
   color: #000;
 }
@@ -380,6 +395,7 @@ option{
 
 .footer h3{
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .footer-copy{
@@ -600,6 +616,7 @@ textarea{
   .logo-home{
     width: 100%;
   }
+
 }
 
 /* Teléfonos medianos (375px - 424px) */
@@ -845,6 +862,7 @@ textarea{
   background-color: #caa65e;
   border-color: #caa65e;
   color: #fff;
+  width: 200px;
 }
 
 .back1 .btn:hover{
@@ -854,13 +872,14 @@ textarea{
 }
 
 .back2{
-  background-color: #fff;
+  background-color: #f1efe9;
 }
 
 .back2 .btn{
   background-color: #38746c;
   border-color: #38746c;
   color: #fff;
+  width: 200px;
 }
 
 .back2 .btn:hover{
@@ -899,6 +918,21 @@ textarea{
     z-index: 0;
 }
 
+.fondo-columna3 {
+    background-color: #fff;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    z-index: 0;
+}
+
+.fondo-columna4 {
+    background-color: #fff;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    z-index: 0;
+}
+
+
 .figura-decorativa,
 .figura-decorativa2 {
     position: relative;
@@ -911,6 +945,16 @@ textarea{
 .s-modelo {
     min-height: 600px; /* Puedes ajustar según necesidad */
     position: relative;
+}
+
+
+.render-desbordado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2); /* el 1.2 es el “desborde” */
+    z-index: 1;
+    max-width: 40rem; /* opcional si también quieres que sobresalga a lo ancho */
 }
 
 
