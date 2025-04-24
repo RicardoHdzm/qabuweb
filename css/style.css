@@ -126,7 +126,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #000;
 }
@@ -577,39 +577,58 @@ textarea{
 }
 
 
-.owl-nav {
+.owl-carousel .owl-nav {
   position: absolute;
+  top: 50%;
+  left: 0;
   width: 100%;
-  transform: translateY(-50%);
   display: flex;
-  justify-content: center;
-  pointer-events: none; /* evita que tape clics */
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; 
+  left: -40px; 
+  right: -40px; 
+  width: calc(100% + 80px); 
 }
 
-/* Permite clic en los botones */
-.owl-nav button {
-  pointer-events: all;
-}
-
-/* Estilizar las flechas */
-.owl-nav button.owl-prev,
-.owl-nav button.owl-next {
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-  color: gold!important;
-  font-size: 2.5rem!important; /* Tamaño de ícono/texto */
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+.owl-carousel .owl-nav button {
+  background: none;
   border: none;
-  margin-top: 5rem!important;
-  transition: 0.5s;
+  pointer-events: all; 
 }
 
-.owl-nav button.owl-prev:hover,
-.owl-nav button.owl-next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #008cff!important;
+.owl-carousel .owl-nav i {
+  font-size: 32px;
+  color: #fff;
+  padding: 10px;
+  background: #caa65e;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
 }
+
+.owl-carousel .owl-nav i:hover {
+  background: #cfaf6e;
+}
+
+.owl-carousel .owl-item {
+  transition: transform 0.3s ease, scale 0.3s ease;
+  transform: scale(0.8); /* Tamaño por defecto de todos */
+}
+
+.owl-carousel .owl-item.active.center {
+  transform: scale(1.1); /* Ítem central más grande */
+  z-index: 2;
+}
+
+.owl-carousel .owl-item.active.center .item {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+
+
+
 
 #whappBtn {
   position: fixed;
@@ -734,10 +753,10 @@ textarea{
 }
 
 .map {
-    position: relative;
-    width: 100vw; /* ajusta según tu diseño */
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  width: 100vw; /* ajusta según tu diseño */
+  height: 100vh;
+  overflow: hidden;
 }
 
 .map h3{
@@ -809,56 +828,56 @@ textarea{
 
 
 .fondo-columna {
-    background-color: #f1efe9;
-    border-top-left-radius: 250px;
-    border-top-right-radius: 250px;
-    z-index: 0;
+  background-color: #f1efe9;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  z-index: 0;
 }
 
 .fondo-columna2 {
-    background-color: #f1efe9;
-    border-bottom-left-radius: 250px;
-    border-bottom-right-radius: 250px;
-    z-index: 0;
+  background-color: #f1efe9;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  z-index: 0;
 }
 
 .fondo-columna3 {
-    background-color: #fff;
-    border-top-left-radius: 250px;
-    border-top-right-radius: 250px;
-    z-index: 0;
+  background-color: #fff;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  z-index: 0;
 }
 
 .fondo-columna4 {
-    background-color: #fff;
-    border-bottom-left-radius: 250px;
-    border-bottom-right-radius: 250px;
-    z-index: 0;
+  background-color: #fff;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  z-index: 0;
 }
 
 
 .figura-decorativa,
 .figura-decorativa2 {
-    position: relative;
-    z-index: 1;
-    padding: 2rem;
-    background-color: transparent; /* O blanco si quieres destacar más */
-    border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  background-color: transparent; /* O blanco si quieres destacar más */
+  border-radius: 20px;
 }
 
 .s-modelo {
-    min-height: 600px; /* Puedes ajustar según necesidad */
-    position: relative;
+  min-height: 600px; /* Puedes ajustar según necesidad */
+  position: relative;
 }
 
 
 .render-desbordado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.2); /* el 1.2 es el “desborde” */
-    z-index: 1;
-    max-width: 40rem; /* opcional si también quieres que sobresalga a lo ancho */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2); /* el 1.2 es el “desborde” */
+  z-index: 1;
+  max-width: 40rem; /* opcional si también quieres que sobresalga a lo ancho */
 }
 
 
@@ -867,7 +886,7 @@ textarea{
 /* Tablets (768px - 1024px) */
 @media only screen and (max-width: 1024px) {
 
-  .caeti h1, h1, h2 {
+  h1, h2 {
     font-size: 3.75rem;
   }
 
@@ -910,7 +929,7 @@ textarea{
 @media only screen and (max-width: 767px) {
 
 
-  h1, h2, h3 {
+  h1, col-xxl, h3 {
     font-size: 1.2rem!important;
   }
 
@@ -956,4 +975,19 @@ textarea{
   .btn {
     font-size: 0.7rem;
   }
+}
+
+.map-container{
+  overflow:hidden;
+  position:relative;
+  height: 0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  background-color: #fff;
 }
