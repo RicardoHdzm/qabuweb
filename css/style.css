@@ -6,6 +6,7 @@ body {
   scroll-behavior: smooth;
   background-attachment: fixed;
   overflow-x: hidden;
+  letter-spacing: 0.075em
 }
 
 ::selection {
@@ -552,103 +553,6 @@ textarea{
   text-align: center;
 }
 
-/* SCREEN */
-
-/* Tablets (768px - 1024px) */
-@media only screen and (max-width: 1024px) {
-
-  .caeti h1, h1, h2 {
-    font-size: 3.75rem;
-  }
-
-  h3, h4, p, .caeti p, .btn{
-    font-size: 1rem;
-  }
-
-  .section-n{
-    height: fit-content;
-    margin-bottom: 5rem;
-  }
-
-  body{
-    text-align: justify;
-  }
-
-  .centering{
-    text-align: justify;
-  }
-
-  .navbar{
-    background-color: rgba(0, 0, 0, .5);
-  }
-
-  .footer-copy{
-    text-align: center;
-  }
-
-  .footer-copy p{
-    font-size: 1rem;
-  }
-
-  .footicon{
-    width: 10rem!important;
-  }
-
-
-}
-
-/* Teléfonos grandes (425px - 767px) */
-@media only screen and (max-width: 767px) {
-
-
-  h1, h2, h3 {
-    font-size: 1.2rem!important;
-  }
-
-  h4, p {
-    font-size: 1.2rem;
-  }
-
-  .btn {
-    font-size: 0.8rem;
-  }
-
-  .logo-home{
-    width: 100%;
-  }
-
-}
-
-/* Teléfonos medianos (375px - 424px) */
-@media only screen and (max-width: 424px) {
-  h1, h2, h3 {
-    font-size: 1.25rem;
-  }
-
-  h4, p {
-    font-size: 0.8rem;
-  }
-
-  .btn{
-    font-size: 0.75rem;
-  }
-}
-
-/* Teléfonos pequeños (hasta 374px) */
-@media only screen and (max-width: 374px) {
-  h1, h2 {
-    font-size: 1.1rem;
-  }
-
-  h3, h4, p {
-    font-size: 0.8rem;
-  }
-
-  .btn {
-    font-size: 0.7rem;
-  }
-}
-
 .card{
   background-color: transparent;
 }
@@ -958,3 +862,98 @@ textarea{
 }
 
 
+/* SCREEN */
+
+/* Tablets (768px - 1024px) */
+@media only screen and (max-width: 1024px) {
+
+  .caeti h1, h1, h2 {
+    font-size: 3.75rem;
+  }
+
+  h3, h4, p, .caeti p, .btn{
+    font-size: 1rem;
+  }
+
+  .section-n{
+    height: fit-content;
+    margin-bottom: 5rem;
+  }
+
+  body{
+    text-align: justify;
+  }
+
+  .centering{
+    text-align: justify;
+  }
+
+  .navbar{
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  .footer-copy{
+    text-align: center;
+  }
+
+  .footer-copy p{
+    font-size: 1rem;
+  }
+
+  .footicon{
+    width: 10rem!important;
+  }
+
+}
+
+/* Teléfonos grandes (425px - 767px) */
+@media only screen and (max-width: 767px) {
+
+
+  h1, h2, h3 {
+    font-size: 1.2rem!important;
+  }
+
+  h4, p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .logo-home{
+    width: 100%;
+  }
+
+}
+
+/* Teléfonos medianos (375px - 424px) */
+@media only screen and (max-width: 424px) {
+  h1, h2, h3 {
+    font-size: 1.25rem;
+  }
+
+  h4, p {
+    font-size: 0.8rem;
+  }
+
+  .btn{
+    font-size: 0.75rem;
+  }
+}
+
+/* Teléfonos pequeños (hasta 374px) */
+@media only screen and (max-width: 374px) {
+  h1, h2 {
+    font-size: 1.1rem;
+  }
+
+  h3, h4, p {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+}
