@@ -685,6 +685,7 @@ textarea{
   font-size: 3.5rem;
   color: #fff;
   margin: 0!important;
+  font-weight: 600;
 }
 
 #modelos a{
@@ -713,7 +714,7 @@ textarea{
 
 
 .cardx:hover::before{
-  background-color: rgba(0, 0, 0, .15);
+  background-color: rgba(255, 255, 255, .05);
 }
 
 .mod-a{
