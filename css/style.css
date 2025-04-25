@@ -10,8 +10,8 @@ body {
 }
 
 ::selection {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #357768;
 }
 
 /* RESET */
@@ -814,8 +814,7 @@ textarea{
 }
 
 .render{
-  width: 150%;
-  position
+  max-height: 20rem;
 }
 
 .s-modelo ul{
@@ -881,6 +880,19 @@ textarea{
 
 /* SCREEN */
 
+
+@media only screen and (max-width: 1500px) {
+
+  .mod-desktop{
+    display: none!important;
+  }
+
+  .mod-mobile{
+    display: block!important;
+  }
+}
+
+
 /* Tablets (768px - 1024px) */
 @media only screen and (max-width: 1024px) {
 
@@ -924,6 +936,10 @@ textarea{
 
   .footicon{
     width: 10rem!important;
+  }
+
+  .mod-desktop{
+    display: none;
   }
 
 }
@@ -1016,4 +1032,27 @@ textarea{
 
 .insta:hover{
   filter: brightness(1);
+}
+
+.mod-desktop{
+  display: block;
+}
+
+.mod-mobile{
+  display: none;
+  background-color: #fff!important;
+}
+
+.mod-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.mobile-col{
+  background-color: #fff;
 }
