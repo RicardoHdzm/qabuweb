@@ -878,6 +878,14 @@ textarea{
 /* SCREEN */
 
 
+@media only screen and (max-width: 1600px) {
+  .nav-link{
+    font-size: .9rem;
+  }
+}
+
+
+
 @media only screen and (max-width: 1500px) {
 
   .mod-desktop{
