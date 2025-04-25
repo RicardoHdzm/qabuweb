@@ -26,7 +26,7 @@
 <body>
     <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
-            <img src="assets/img/logos/logo.png" class="navicon">
+            <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
 
         <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
@@ -45,7 +45,7 @@
         </div>
     </nav>
 
-    <section id="contacto" data-nav-color="dark" class="section-m">
+    <section id="contacto" data-nav-color="green" class="section-m">
         <div style="height: 10rem;"></div>
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-12 col-lg-7 px-lg-5">
@@ -90,7 +90,7 @@
         </div>
     </section>
 
-    <section id="Footer" data-nav-color="dark" class="footer">
+    <section id="Footer" data-nav-color="green" class="footer">
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-lg-6 px-lg-5 my-auto" style="text-align: left;">
                 <h2>Boom Smart Living</h2>
@@ -138,7 +138,7 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const color = entry.target.getAttribute('data-nav-color');
-                        navbar.classList.remove('light', 'dark', 'white');
+                        navbar.classList.remove('light', 'dark', 'white', 'green');
                         navbar.classList.add(color);
                     }
                 });
