@@ -396,10 +396,6 @@ option{
   color: #fff;
 }
 
-.footer-copy{
-  text-align: right;
-}
-
 .footer .btn{
   background-color: transparent;
   color: #fff;
@@ -741,8 +737,8 @@ textarea{
 }
 
 .footicon{
-  width: 5.5rem;
-  margin: 4.5rem;
+  height: 5.5rem;
+  margin: 2.5rem;
 }
 
 .fa-solid{
@@ -935,7 +931,8 @@ textarea{
   }
 
   .footicon{
-    width: 10rem!important;
+    height: 5rem!important;
+    width: auto!important;
   }
 
   .mod-desktop{
@@ -971,6 +968,24 @@ textarea{
 
   .cardx h3{
     font-size: 1.5rem;
+  }
+
+  .footicon{
+    height: 5.5rem!important;
+  }
+
+  .footer p{
+    font-size: 1rem;
+  }
+
+  .footer h2{
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .footer h3{
+    font-size: 1rem;
+    color: #fff;
   }
 
 }
