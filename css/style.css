@@ -168,7 +168,7 @@ p{
 
 /* LINKS */
 .nav-link {
-  color: #F1F7EE;
+  color: #000;
   margin-top: 10px;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -1046,14 +1046,15 @@ textarea{
 .insta{
   width: 100%;
   height: auto;
+  display: block; /* elimina espacios debajo de imágenes inline */
   border-radius: 15px;
-  filter: brightness(.8);
+  filter: brightness(.9);
   transition: .5s;
 }
 
 
 .insta:hover{
-  filter: brightness(1);
+  filter: brightness(1.5);
 }
 
 .mod-desktop{
