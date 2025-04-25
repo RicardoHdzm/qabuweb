@@ -284,6 +284,35 @@ option{
   color: #000;
 }
 
+.section-contacto{
+  height: fit-content;
+  padding-top: 5rem!important;
+  padding-bottom: 5rem!important;
+  background-color: #34746c;
+  color: #fff;
+}
+
+.section-contacto .btn{
+  color: #fff;
+  background-color: #caa65e;
+  border-color: #caa65e;
+}
+
+.section-contacto .btn:hover{
+  color: #fff;
+  background-color: #b69555;
+  border-color: #b69555;
+}
+
+.section-contacto .custom-checkbox{
+  background-color: #caa65e;
+  border-color: #caa65e;
+}
+
+.section-contacto .fa-brands{
+  color: #fff;
+}
+
 .section-modelos{
   height: 100vh;
   background-color: #f1efe9;
