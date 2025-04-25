@@ -914,6 +914,18 @@ textarea{
 /* Tablets (768px - 1024px) */
 @media only screen and (max-width: 1024px) {
 
+  .qabu {
+  height: fit-content;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.mid-video{
+  height: fit-content;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
   h1, h2 {
     font-size: 3.75rem;
   }
