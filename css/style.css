@@ -33,6 +33,12 @@ div, img {
   /* filter: grayscale(100%) brightness(100%)!important; */
 }
 
+
+.img-modelos{
+  width: 100%;
+  height: auto;
+}
+
 .navicon{
   width: 10rem;
 }
@@ -947,6 +953,12 @@ textarea{
     padding-top: 10rem!important;
     padding-bottom: 10rem!important;
   }
+
+  .section-modelos{
+    height: fit-content;
+    padding-top: 15rem!important;
+    padding-bottom: 15rem!important ;
+  }
 }
 
 
@@ -1127,7 +1139,7 @@ textarea{
   margin: 0 auto;
   max-width: 100%;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
