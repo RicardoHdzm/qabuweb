@@ -24,7 +24,7 @@
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl sticky-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
@@ -47,6 +47,8 @@
 
     <section id="contacto" data-nav-color="white" class="section-m">
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
+            <div style="height: 8rem;">
+            </div>
             <div class="col-12 col-lg-7 px-lg-5">
                 <h2>Contacto</h2>
                 <p class="py-3">
@@ -114,42 +116,43 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" defer></script>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script>
-            AOS.init({
-                duration: 2000,
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+
+    <script>
+        const navbar = document.getElementById('Navbar');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const color = entry.target.getAttribute('data-nav-color');
+                    navbar.classList.remove('light', 'dark', 'white', 'green');
+                    navbar.classList.add(color);
+                }
             });
-        </script>
-
-        <script>
-            const navbar = document.getElementById('Navbar');
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const color = entry.target.getAttribute('data-nav-color');
-                        navbar.classList.remove('light', 'dark', 'white', 'green');
-                        navbar.classList.add(color);
-                    }
-                });
-            }, {
+        }, {
         threshold: 0.6 // Detecta cuando el 60% de la sección está visible
     });
 
-            document.querySelectorAll('section[data-nav-color]').forEach(section => {
-                observer.observe(section);
-            });
-        </script>
+        document.querySelectorAll('section[data-nav-color]').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 
 
-    </body>
-    </html>
+</body>
+</html>
