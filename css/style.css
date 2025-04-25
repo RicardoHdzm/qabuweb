@@ -526,29 +526,21 @@ textarea{
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #000
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e8e4d8;
+  background: #c6a75f;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e8e4d8;
+  background: #c6a75f;
 }
 
-.marca{
-  width: 75%;
-  transition: .5s;
-}
-
-.marca:hover{
-  transform: translateY(-5px);
-}
 
 .centering{
   text-align: center;
