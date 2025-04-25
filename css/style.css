@@ -46,7 +46,7 @@ div, img {
 
 h1{
   font-size: 4.5rem;
-  font-weight: bolder;
+  font-weight: 500;
   letter-spacing: 2px;
   color: #000;
 }
@@ -116,7 +116,7 @@ h1{
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 500;
   color: #fff;
   letter-spacing: 2px;
@@ -319,6 +319,10 @@ option{
 .navbar.light {
   background-color: transparent;
   transition: background-color 0.5s ease;
+}
+
+.navbar.green .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 119, 104, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar.dark {
@@ -738,7 +742,7 @@ textarea{
   color: #000;
   font-size: 3rem;
   margin: .5rem;
-  transition: .5s;
+  transition: .3s;
 }
 
 .footicon{
@@ -893,6 +897,13 @@ textarea{
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .navbar.light {
+    background-color: #327768;
+  }
+}
+
+
 
 /* Tablets (768px - 1024px) */
 @media only screen and (max-width: 1024px) {
@@ -943,7 +954,6 @@ textarea{
   .mod-desktop{
     display: none;
   }
-
 }
 
 /* Teléfonos grandes (425px - 767px) */
