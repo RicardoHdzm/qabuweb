@@ -140,7 +140,7 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const color = entry.target.getAttribute('data-nav-color');
-                    navbar.classList.remove('light', 'dark', 'white');
+                    navbar.classList.remove('light', 'dark', 'white', 'green');
                     navbar.classList.add(color);
                 }
             });
