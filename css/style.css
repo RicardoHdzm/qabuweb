@@ -51,7 +51,7 @@ div, img {
 /* FONTS */
 
 h1{
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 500;
   letter-spacing: 2px;
   color: #000;
@@ -122,14 +122,14 @@ h1{
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
   letter-spacing: 2px;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: #000;
 }
@@ -143,7 +143,7 @@ h3 {
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -221,7 +221,7 @@ p{
 /* BUTTONS */
 .btn {
   background-color: transparent;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bolder;
   border: solid 0.2rem #caa65e;
   border-radius: 15px;
@@ -230,6 +230,7 @@ p{
   transition: 0.2s;
   width: 300px;
   text-transform: uppercase;
+  letter-spacing: .1rem;
 }
 
 .qabu .btn{
@@ -437,11 +438,11 @@ option{
 
 .footer h2{
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .footer h3{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 
@@ -484,14 +485,6 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-.top-space{
-  height: 5rem;
-}
-
-small{
-  letter-spacing: 2px;
 }
 
 /* FORM */
@@ -545,11 +538,8 @@ small{
 }
 
 .form-check-label{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-
-
-
 
 .form-border{
   border: thin solid #fff;
@@ -580,34 +570,6 @@ textarea{
 
 ::-webkit-scrollbar-thumb:hover {
   background: #c6a75f;
-}
-
-
-.centering{
-  text-align: center;
-}
-
-.card{
-  background-color: transparent;
-}
-
-.card-tittle{
-  font-family: "Oxanium", sans-serif;
-  color: #e97c3a;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.card-text{
-  font-size: 1rem;
-}
-
-.card-img-top {
-  height: 20rem; 
-  object-fit: cover;
-  border: solid thin;
-  border-color: #fff;
 }
 
 
@@ -661,16 +623,13 @@ textarea{
 }
 
 
-
-
-
 #whappBtn {
   position: fixed;
-  bottom: 3.5rem;
+  bottom: 2.5rem;
   right: 2.5rem;
   z-index: 90;
   outline: none; 
-  background-color: #000; 
+  background-color: #357768; 
   cursor: pointer;
   font-weight: bolder;
   border-color: #fff!important;
@@ -682,11 +641,11 @@ textarea{
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0 0 0.5rem #000);
+  filter: drop-shadow(0 0 0.25rem #000);
 }
 
 #whappBtn:hover {
-  background-color: #ff8800;
+  background-color: #2a5f53;
   transform: translateY(-.5rem);
 }
 
@@ -716,7 +675,7 @@ textarea{
 }
 
 .cardx h3{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: #fff;
   margin: 0!important;
   font-weight: 600;
@@ -959,6 +918,10 @@ textarea{
     padding-top: 15rem!important;
     padding-bottom: 15rem!important ;
   }
+
+  .navbar{
+    position: static!important;
+  }
 }
 
 
@@ -968,16 +931,16 @@ textarea{
 
 
   h1, h2 {
-    font-size: 3.75rem;
+    font-size: 2.75rem;
   }
 
   h3, h4{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
 
   p, .btn{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .section-n{
@@ -1024,12 +987,12 @@ textarea{
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
 
   h4, p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .btn {
@@ -1041,7 +1004,7 @@ textarea{
   }
 
   .cardx h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .footicon{
@@ -1049,12 +1012,12 @@ textarea{
   }
 
   .footer p{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .footer h2{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .footer h3{
