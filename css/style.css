@@ -882,6 +882,10 @@ textarea{
   .nav-link{
     font-size: .9rem;
   }
+
+  .navicon{
+    width: 7.5rem;
+  }
 }
 
 
