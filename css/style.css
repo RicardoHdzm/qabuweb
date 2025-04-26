@@ -943,6 +943,10 @@ textarea{
     font-size: 1rem;
   }
 
+  .cardx h3{
+    font-size: 1.8rem;
+  }
+
   .section-n{
     height: fit-content;
     margin-bottom: 5rem;
