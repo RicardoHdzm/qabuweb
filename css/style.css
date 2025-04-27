@@ -1,4 +1,9 @@
 /* GLOBALS */
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -31,6 +36,10 @@ div, img {
   width: 10rem!important;
   height: auto!important;
   /* filter: grayscale(100%) brightness(100%)!important; */
+}
+
+.section-s h2{
+  color: #000;
 }
 
 
@@ -401,7 +410,7 @@ option{
 
 #amenidades li{
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -939,9 +948,10 @@ textarea{
   }
 
 
-  p, .btn{
-    font-size: 1rem;
+  p, .btn, .form-check-label{
+    font-size: 1.2rem;
   }
+
 
   .cardx h3{
     font-size: 1.8rem;
@@ -995,20 +1005,20 @@ textarea{
   }
 
 
-  h4, p {
-    font-size: 0.8rem;
+  h4, p, .btn, .form-check-label {
+    font-size: 1rem;
   }
 
-  .btn {
-    font-size: 0.8rem;
-  }
+  #amenidades li{
+  font-size: 1rem;
+}
 
   .logo-home{
     width: 100%;
   }
 
   .cardx h3{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .footicon{
@@ -1037,13 +1047,10 @@ textarea{
     font-size: 1.25rem;
   }
 
-  h4, p {
+  h4, p, .btn, .form-check-label {
     font-size: 0.8rem;
   }
 
-  .btn{
-    font-size: 0.75rem;
-  }
 }
 
 /* Teléfonos pequeños (hasta 374px) */
@@ -1052,13 +1059,10 @@ textarea{
     font-size: 1.1rem;
   }
 
-  h3, h4, p {
+  h3, h4, p, .btn {
     font-size: 0.8rem;
   }
 
-  .btn {
-    font-size: 0.7rem;
-  }
 }
 
 .map-container{
