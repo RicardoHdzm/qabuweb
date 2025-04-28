@@ -24,7 +24,7 @@
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl sticky-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
@@ -45,7 +45,8 @@
         </div>
     </nav>
 
-    <section id="contacto" data-nav-color="green" class="section-contacto">
+    <section id="contacto" data-nav-color="white" class="section-contacto">
+        <div class="top-space"></div>
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-12 col-lg-6 px-lg-5 my-auto">
                 <h2>Contacto</h2>
@@ -89,14 +90,16 @@
         </div>
     </section>
 
-    <section id="Footer" data-nav-color="green" class="footer">
-        <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
-            <div class="col-lg-6 px-lg-5 my-auto" style="text-align: left;">
-                <h2>Boom Smart Living</h2>
-                <br>
-                <h3><i class="fa-solid fa-location-dot"></i>Av. Camarón Sábalo 131. Piso 6, Oficina 3, Lomas de Mazatlán. 82110. Mazatlán, Sinaloa.<br><br>
-                    <i class="fa-solid fa-phone"></i>+52 669 331 3725<br><br>
-                    <i class="fa-solid fa-envelope"></i>ventas@qabuboutiqueliving.com</h3>
+    <section id="Footer" data-nav-color="white" class="footer">
+            <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
+                <div class="col-lg-6 px-lg-5 my-auto" style="text-align: left;">
+                    <h2>Boom Smart Living</h2>
+                    <br>
+                    <h3>
+                        <i class="fa-solid fa-location-dot"></i>Av. Camarón Sábalo 131. Piso 6, Oficina 3, Lomas de Mazatlán. 82110. Mazatlán, Sinaloa.<br><br>
+                        <i class="fa-solid fa-phone"></i>+52 669 331 3725<br><br>
+                        <i class="fa-solid fa-envelope"></i>ventas@qabuboutiqueliving.com
+                    </h3>
                 </div>
                 <div class="col-lg-6 text-center my-auto py-5 py-xxl-0">
                     <h3>
@@ -105,7 +108,7 @@
                     </h3>
                     <a href="https://boomsmartliving.com/" target="_blank"><button class="btn my-3">Visitar Página</button></a>
                 </div>
-                <div class="row mt-5">
+                <div class="row mt-3">
                     <div class="col-lg-6 footer-copy text-center my-auto">
                         <p><b>Un proyecto desarrollado por: <img src="assets/img/logos/boom.png" class="footicon"></b></p>
                     </div>
@@ -114,8 +117,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <a href="https://wa.me/526693313725" target="_blank"><button id="whappBtn" title="Open WhatsApp"><img class="whapp" src="assets/img/logos/whatsapp.png"></button></a>
 
@@ -138,7 +140,7 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const color = entry.target.getAttribute('data-nav-color');
-                    navbar.classList.remove('light', 'green');
+                    navbar.classList.remove('light', 'green', 'white');
                     navbar.classList.add(color);
                 }
             });

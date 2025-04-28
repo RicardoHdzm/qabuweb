@@ -1,14 +1,12 @@
 <?php
-session_start(); // Inicia la sesión
+session_start(); 
 
-// Verifica si viene de un mensaje exitoso
+
 if (!isset($_SESSION['mensaje_enviado']) || $_SESSION['mensaje_enviado'] !== true) {
-    // Si no viene de un mensaje válido, redirige a inicio o a otra página
     header("Location: index.html");
     exit();
 }
 
-// Después de mostrar la página de gracias, destruye esa variable
 unset($_SESSION['mensaje_enviado']);
 ?>
 
@@ -39,7 +37,7 @@ unset($_SESSION['mensaje_enviado']);
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl sticky-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
@@ -61,9 +59,10 @@ unset($_SESSION['mensaje_enviado']);
     </nav>
 
     <section id="contacto" data-nav-color="green" class="section-contacto">
+        <div class="top-space"></div>
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-12 col-lg-10 px-lg-5 my-auto text-center">
-                <h1>¡Mensaje enviado con exito!</h1>
+                <h1>¡Mensaje enviado con éxito!</h1>
                 
                 <h3 class="py-3">Hemos recibido tu mensaje correctamente.<br>Muy pronto uno de nuestros asesores se pondrá en contacto contigo.</h3>
                 <p class="py-3">
@@ -141,4 +140,3 @@ unset($_SESSION['mensaje_enviado']);
 
 
 </body>
-</html>

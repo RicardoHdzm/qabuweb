@@ -325,6 +325,43 @@ option{
   border-color: #caa65e;
 }
 
+.section-brochure{
+  height: fit-content;
+  padding-top: 5rem!important;
+  padding-bottom: 5rem!important;
+  background-color: #356589;
+  color: #fff;
+}
+
+.section-brochure .fa-brands{
+  color: #fff;
+}
+
+.section-brochure h1{
+  color: #fff;
+}
+
+.section-brochure h3{
+  color: #fff;
+}
+
+.section-brochure .btn{
+  color: #fff;
+  background-color: #caa65e;
+  border-color: #caa65e;
+}
+
+.section-brochire .btn:hover{
+  color: #fff;
+  background-color: #b69555;
+  border-color: #b69555;
+}
+
+.section-brochure .custom-checkbox{
+  background-color: #caa65e;
+  border-color: #caa65e;
+}
+
 .section-contacto .fa-brands{
   color: #fff;
 }
@@ -420,6 +457,10 @@ option{
   justify-content: center; /* Centra las imágenes horizontalmente */
   align-items: center;     /* Centra las imágenes verticalmente */
   height: 100px;           /* Define una altura fija para los items */
+}
+
+.top-space{
+  height: 10rem;
 }
 
 
@@ -685,7 +726,7 @@ textarea{
 }
 
 .cardx h3{
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #fff;
   margin: 0!important;
   font-weight: 600;
@@ -958,6 +999,15 @@ textarea{
     padding-top: 15rem!important;
     padding-bottom: 15rem!important ;
   }
+
+    #modelos{
+    text-align: center;
+  }
+
+  #ubicacion{
+    text-align: center;
+  }
+
 }
 
 
@@ -982,7 +1032,6 @@ textarea{
   p, .btn, .form-check-label{
     font-size: 1.2rem;
   }
-
 
   .cardx h3{
     font-size: 2.5rem;
@@ -1072,6 +1121,12 @@ textarea{
   .footer h3{
     font-size: .85rem;
     color: #fff;
+  }
+
+  .section-modelos{
+    height: fit-content;
+    padding-top: 10rem!important;
+    padding-bottom: 5rem!important;
   }
 
 }
