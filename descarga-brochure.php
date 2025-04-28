@@ -12,7 +12,7 @@ unset($_SESSION['mensaje_enviado']);
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="QABU">
