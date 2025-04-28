@@ -57,6 +57,8 @@ div, img {
   filter: invert(100%);
 }
 
+
+
 /* FONTS */
 
 h1{
@@ -157,7 +159,7 @@ p{
 }
 
 .oval{
-  width: 75%;
+  width: 80%;
   height: auto;
 }
 
@@ -784,7 +786,7 @@ textarea{
 
 .fa-brands{
   color: #000;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: .5rem;
   transition: .3s;
 }
@@ -907,12 +909,12 @@ textarea{
   position: relative;
   z-index: 1;
   padding: 2rem;
-  background-color: transparent; /* O blanco si quieres destacar más */
+  background-color: transparent; /
   border-radius: 20px;
 }
 
 .s-modelo {
-  min-height: 600px; /* Puedes ajustar según necesidad */
+  min-height: 600px; 
   position: relative;
 }
 
@@ -921,9 +923,9 @@ textarea{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.2); /* el 1.2 es el “desborde” */
+  transform: translate(-50%, -50%) scale(1.2); 
   z-index: 1;
-  max-width: 40rem; /* opcional si también quieres que sobresalga a lo ancho */
+  max-width: 40rem; 
 }
 
 .position-relative {
@@ -945,7 +947,7 @@ textarea{
 
 .overlay-text .fa-brands{
   color: #fff;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .overlay-text h3{
@@ -1088,6 +1090,10 @@ textarea{
     font-size: 1.5rem;
   }
 
+  .oval{
+    width: 100%;
+  }
+
 
   h4, p, .btn, .form-check-label {
     font-size: 1rem;
@@ -1172,9 +1178,8 @@ textarea{
 
 
 .insta{
-  width: 100%;
+  width: 80%;
   height: auto;
-  display: block;
   border-radius: 15px;
   filter: brightness(.8);
   transition: .5s;
