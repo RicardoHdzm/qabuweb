@@ -1,3 +1,18 @@
+<?php
+session_start(); // Inicia la sesión
+
+// Verifica si viene de un mensaje exitoso
+if (!isset($_SESSION['mensaje_enviado']) || $_SESSION['mensaje_enviado'] !== true) {
+    // Si no viene de un mensaje válido, redirige a inicio o a otra página
+    header("Location: index.html");
+    exit();
+}
+
+// Después de mostrar la página de gracias, destruye esa variable
+unset($_SESSION['mensaje_enviado']);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +23,7 @@
     <meta property="og:image" content="https://qabu.com.mx/assets/img/logos/meta.png">
     <meta property="og:url" content="https://qabu.com.mx/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contacto - QABU</title>
+    <title>Mensaje Enviado - QABU</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -47,44 +62,17 @@
 
     <section id="contacto" data-nav-color="green" class="section-contacto">
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
-            <div class="col-12 col-lg-6 px-lg-5 my-auto">
-                <h2>Contacto</h2>
+            <div class="col-12 col-lg-10 px-lg-5 my-auto text-center">
+                <h1>¡Mensaje enviado con exito!</h1>
+                
+                <h3 class="py-3">Hemos recibido tu mensaje correctamente.<br>Muy pronto uno de nuestros asesores se pondrá en contacto contigo.</h3>
                 <p class="py-3">
-                 <b>¡Tengamos una llamada!</b><br>+52 669 331 3725<br>ventas@qabuboutiqueliving.com</p>
-                 <h3>
+                    <b>¡Tengamos una llamada!</b><br>+52 669 331 3725<br>ventas@qabuboutiqueliving.com
+                </p>
+                <h3>
                     <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.facebook.com/people/Qabu-Boutique-Living/61553008078330/?_rdr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                 </h3>
-            </div>
-            <div class="col-12 col-lg-6 my-xxl-auto px-lg-5 py-lg-0 py-3">
-                <p>
-                    <b>Ubicación</b><br>De La Mojarra 4997, Sábalo Country, 82100 Mazatlán, Sin.
-                </p>
-                <form action="enviar_correo.php" method="POST">
-                    <div class="form-row row">
-                        <div class="form-group col-12 col-lg-6 p-3">
-                            <p>Nombre*</p>
-                            <input type="text" class="form-control" name="name" id="name"required>
-                        </div>
-                        <div class="form-group col-12 col-lg-6 p-3">
-                            <p>Apellido*</p>
-                            <input type="text" class="form-control" name="lastname" id="lastname" required>
-                        </div>
-                        <div class="form-group col-12 col-lg-12 p-3">
-                            <p>Teléfono*</p>
-                            <input type="text" class="form-control" name="phone" id="phone" required>
-                        </div>
-                        <div class="form-group col-12 col-lg-12 p-3">
-                            <p>Email*</p>
-                            <input type="email" class="form-control" name="email" id="email"required>
-                        </div>
-                        <div class="form-check py-3 d-flex align-items-center gap-2">
-                            <input class="custom-checkbox" type="checkbox" value="" id="flexCheckDefault" required>
-                            <label class="form-check-label m-0" for="flexCheckDefault">Soy asesor inmobiliario</label>
-                        </div>
-                    </div>
-                    <button type="submit" value="Enviar" class="btn my-5">Enviar</button>
-                </form>
             </div>
         </div>
     </section>

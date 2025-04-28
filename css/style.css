@@ -1125,6 +1125,14 @@ textarea{
   transition: .5s;
 }
 
+.section-contacto h1{
+  color: #fff;
+}
+
+.section-contacto h3{
+  color: #fff;
+}
+
 
 .insta:hover{
   filter: brightness(1.5);
