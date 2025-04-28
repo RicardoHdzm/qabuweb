@@ -58,12 +58,12 @@ unset($_SESSION['mensaje_enviado']);
         </div>
     </nav>
 
-    <section id="contacto" data-nav-color="white" class="section-brochure">
+    <section id="brochure" data-nav-color="white" class="section-contacto">
         <div class="top-space"></div>
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-12 col-lg-10 px-lg-5 my-auto text-center">
                 <h1>¡Datos enviados con éxito!</h1>
-                <h3 class="py-3">Hemos recibido tu información correctamente.<br>Podras descargar nuestro Brochure por medio del siguiente boton</h3>
+                <h3 class="py-3">¡Gracias por su interés en nuestro proyecto! Hemos recibido tu información correctamente.<br>Podras descargar nuestro Brochure por medio del siguiente botón:</h3>
                 <a href="qabu-brochure.pdf" target="_blank"><button class="btn my-3">Iniciar Descarga</button></a>
                 <p class="py-3">
                     <b>¡Tengamos una llamada!</b><br>+52 669 331 3725<br>ventas@qabuboutiqueliving.com
