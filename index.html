@@ -136,43 +136,45 @@
                 <div class="row justify-content-center text-center my-5">
                     <div class="services-slider owl-carousel owl-theme px-lg-5">
 
-                        <div class="col-12 p-lg-3">
+                        <div class="col-12 p-lg-3 position-relative">
                             <a href="modelos#modeloA">             
                                 <div class="cardx mod-a">
-                                    <h3>Modelo<br>A</h3>
+                                    <div class="overlay-text"><h3>Modelo<br>A</h3></div>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-12 p-lg-3">
+                        <div class="col-12 p-lg-3 position-relative">
                             <a href="modelos#modeloA1">             
                                 <div class="cardx mod-a1">
-                                    <h3>Modelo<br>A1</h3>
+                                    <div class="overlay-text"><h3>Modelo<br>A1</h3></div>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-12 p-lg-3">
+                        <div class="col-12 p-lg-3 position-relative">
                             <a href="modelos#modeloB">             
                                 <div class="cardx mod-b">
                                     <h3>Modelo<br>B</h3>
+                                    <div class="overlay-text"><h3>Modelo<br>B</h3></div>
+
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-12 p-lg-3">
+                        <div class="col-12 p-lg-3 position-relative">
                             <a href="modelos#modeloC">             
                                 <div class="cardx mod-c">
-                                    <h3>Modelo<br>C</h3>
+                                    <div class="overlay-text"><h3>Modelo<br>C</h3></div>
                                 </div>
                             </a>
                         </div>
 
 
-                        <div class="col-12 p-lg-3">
+                        <div class="col-12 p-lg-3 position-relative">
                             <a href="modelos#modeloD">             
                                 <div class="cardx mod-d">
-                                    <h3>Modelo<br>D</h3>
+                                    <div class="overlay-text"><h3>Modelo<br>D</h3></div>
                                 </div>
                             </a>
                         </div>
@@ -195,39 +197,40 @@
                     </div>
                     <div class="col-lg-8 my-auto" data-aos="fade-in">
                         <div class="row text-center">
-                            <div class="col-6 col-lg-4">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta1.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
-                            <div class="col-6 col-lg-4">
-                                <a href="#">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta2.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
-                            <div class="col-6 col-lg-4">
-                                <a href="#">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta3.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
-                            <div class="col-6 col-lg-4">
-                                <a href="#">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta4.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
-                            <div class="col-6 col-lg-4">
-                                <a href="#">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta5.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
-                            <div class="col-6 col-lg-4 p-3">
-                                <a href="#">
+                            <div class="col-6 col-lg-4 position-relative">
                                 <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank">
                                     <img src="assets/img/home/insta6.png" class="insta">
+                                    <div class="overlay-text"><i class="fa-brands fa-instagram"></i></div>
                                 </a>
                             </div>
                         </div>
@@ -343,8 +346,8 @@
                         }
                     });
                 }, {
-        threshold: .8
-    });
+                    threshold: .8
+                });
 
                 document.querySelectorAll('section[data-nav-color]').forEach(section => {
                     observer.observe(section);
