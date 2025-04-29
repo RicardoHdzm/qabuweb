@@ -736,6 +736,7 @@ textarea{
   height: 25rem;
   background-size: cover;
   border: solid thin #ebebeb;
+  border-radius: 15px;
   background-position: center;
   cursor: pointer;
   transition: .5s;
@@ -1110,6 +1111,11 @@ textarea{
 
   .oval{
     width: 100%;
+  }
+
+  .overlay-text .fa-brands{
+    color: #fff;
+    font-size: 2.5rem;
   }
 
 
