@@ -81,24 +81,25 @@ unset($_SESSION['mensaje_enviado']);
             <div class="col-lg-6 px-lg-5 my-auto" style="text-align: left;">
                 <h2>Boom Smart Living</h2>
                 <br>
-                <h3><i class="fa-solid fa-location-dot"></i>Av. Camarón Sábalo 131. Piso 6, Oficina 3, Lomas de Mazatlán. 82110. Mazatlán, Sinaloa.<br><br>
+                <h3>
+                    <i class="fa-solid fa-location-dot"></i>Av. Camarón Sábalo 131. Piso 6, Oficina 3, Lomas de Mazatlán. 82110. Mazatlán, Sinaloa.<br><br>
                     <i class="fa-solid fa-phone"></i>+52 669 331 3725<br><br>
-                    <i class="fa-solid fa-envelope"></i>ventas@qabuboutiqueliving.com</h3>
+                    <i class="fa-solid fa-envelope"></i>ventas@qabuboutiqueliving.com
+                </h3>
+            </div>
+            <div class="col-lg-6 text-center my-auto py-5 py-xxl-0">
+                <h3>
+                    <a href="https://www.instagram.com/boomsmartliving?igsh=MTJ4YXk4bjh4cXVxYQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/16cJBY4YzS/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                </h3>
+                <a href="https://boomsmartliving.com/" target="_blank"><button class="btn my-3">Visitar Página</button></a>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-6 footer-copy text-center my-auto">
+                    <p><b>Un proyecto desarrollado por: <img src="assets/img/logos/boom.png" class="footicon"></b></p>
                 </div>
-                <div class="col-lg-6 text-center my-auto py-5 py-xxl-0">
-                    <h3>
-                        <a href="https://www.instagram.com/qabuboutiqueliving/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/people/Qabu-Boutique-Living/61553008078330/?_rdr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                    </h3>
-                    <a href="https://boomsmartliving.com/" target="_blank"><button class="btn my-3">Visitar Página</button></a>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-6 footer-copy text-center my-auto">
-                        <p><b>Un proyecto desarrollado por: <img src="assets/img/logos/boom.png" class="footicon"></b></p>
-                    </div>
-                    <div class="col-lg-6 footer-copy text-center my-auto">
-                        <p><b>Desarrollo arquitectónico por: <img src="assets/img/logos/harqui.png" class="footicon"></b></p>
-                    </div>
+                <div class="col-lg-6 footer-copy text-center my-auto">
+                    <p><b>Desarrollo arquitectónico por: <img src="assets/img/logos/harqui.png" class="footicon"></b></p>
                 </div>
             </div>
         </div>
