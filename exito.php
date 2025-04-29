@@ -37,7 +37,7 @@ unset($_SESSION['mensaje_enviado']);
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-lg fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>

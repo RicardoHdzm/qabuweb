@@ -37,7 +37,7 @@ unset($_SESSION['mensaje_enviado']);
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-lg fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
@@ -48,12 +48,12 @@ unset($_SESSION['mensaje_enviado']);
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="index">Inicio</a></li>
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="ubicacion">Ubicación</a></li>
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="modelos">Modelos</a></li>
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="amenidades">Amenidades</a></li>
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="https://boomsmartliving.com/" target="_blank">Desarrollador</a></li>
-                <li class="nav-item px-xxl-4 py-3"><a class="nav-link" href="#">Contacto</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="index">Inicio</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="ubicacion">Ubicación</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="modelos">Modelos</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="amenidades">Amenidades</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="https://boomsmartliving.com/" target="_blank">Desarrollador</a></li>
+                <li class="nav-item px-xxl-4 px-xl-3 py-3"><a class="nav-link" href="#">Contacto</a></li>
             </ul>
         </div>
     </nav>

@@ -379,6 +379,14 @@ option{
   color: #000;
 }
 
+.section-ubicacion{
+  height: fit-content;
+  background-color: #f1efe9;
+  color: #000;
+  padding-top: 5rem!important;
+  padding-bottom: 1rem!important;
+}
+
 
 .section-s h3{
   color: #000;
@@ -1002,10 +1010,10 @@ textarea{
   .section-modelos{
     height: fit-content;
     padding-top: 15rem!important;
-    padding-bottom: 15rem!important ;
+    padding-bottom: 5rem!important ;
   }
 
-h1, h2 {
+  h1, h2 {
     font-size: 2.75rem;
   }
 
@@ -1032,27 +1040,6 @@ h1, h2 {
 /* Tablets (768px - 1024px) */
 @media only screen and (max-width: 1024px) {
 
-
-  h1, h2 {
-    font-size: 2.75rem;
-  }
-
-  .section-s h2{
-    font-size: 2rem;
-  }
-
-  h3, h4{
-    font-size: 1.5rem;
-  }
-
-
-  p, .btn, .form-check-label{
-    font-size: 1.2rem;
-  }
-
-  .cardx h3{
-    font-size: 2.5rem;
-  }
 
   .section-n{
     height: fit-content;
@@ -1090,15 +1077,18 @@ h1, h2 {
 }
 
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1200px){
   #modelos{
     text-align: center;
   }
+}
 
+@media only screen and (max-width: 992px){
   #ubicacion{
     text-align: center;
   }
 }
+
 
 /* Teléfonos grandes (425px - 767px) */
 @media only screen and (max-width: 767px) {
