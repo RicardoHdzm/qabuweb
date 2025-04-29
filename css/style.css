@@ -809,7 +809,7 @@ textarea{
 
 .footicon{
   height: 5rem;
-  margin: 2.5rem;
+  margin: 3.5rem;
   margin-bottom: 1rem!important;
 }
 
@@ -1203,7 +1203,7 @@ textarea{
 
 
 .insta{
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 15px;
   filter: brightness(.8);
