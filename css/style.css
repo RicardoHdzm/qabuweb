@@ -253,6 +253,9 @@ p{
   background-color: transparent;
   border-color: #fff;
   color: #fff;
+  width: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .qabu .btn:hover{
@@ -991,9 +994,6 @@ textarea{
     display: block!important;
   }
 
-  .navbar.light {
-    background-color: #327768;
-  }
   .qabu {
     height: fit-content;
     padding-top: 25rem!important;
@@ -1085,6 +1085,9 @@ textarea{
 @media only screen and (max-width: 992px){
   #ubicacion{
     text-align: center;
+  }
+  .navbar.light {
+    background-color: #327768;
   }
 }
 
