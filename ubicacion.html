@@ -24,7 +24,7 @@
     
 </head>
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-xxl sticky-top px-5 py-3">
+    <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top px-5 py-3">
         <a class="navbar-brand" href="index" aria-label="Navigate to the homepage">
             <img src="assets/img/logos/logo2.png" class="navicon">
         </a>
@@ -45,12 +45,12 @@
         </div>
     </nav>
 
-    <section id="ubicacion" data-nav-color="green" class="section-m p-lg-5 py-5">
-        <div class="row h-100 justify-content-center contenido" data-aos="fade-in">
-            <div class="col-lg-4 my-auto text-center">
+    <section id="ubicacion" data-nav-color="green" class="section-m p-lg-5 py-5 my-5">
+        <div class="row h-100 justify-content-center contenido my-5" data-aos="fade-in">
+            <div class="col-xl-4 my-auto text-center">
                 <img src="assets/img/ubicacion/ubi.png" class="oval">
             </div>
-            <div class="col-lg-8 px-5 d-flex flex-column justify-content-between">
+            <div class="col-xl-8 px-5 d-flex flex-column justify-content-between">
                 <div class="my-5">
                     <h1>Ubicación</h1>
                     <h3 class="py-3">Del Mojarra 4997, Sábalo Country, Mazatlán, Sinaloa</h3>
@@ -87,7 +87,7 @@
         </div>
     </section>
 
-    <section id="Footer" data-nav-color="dark" class="footer">
+    <section id="Footer" data-nav-color="green" class="footer">
         <div class="row h-100 justify-content-center px-5" data-aos="fade-in">
             <div class="col-lg-6 px-lg-5 my-auto" style="text-align: left;">
                 <h2>Boom Smart Living</h2>
@@ -142,7 +142,7 @@
                 }
             });
         }, {
-            threshold: 0.8
+            threshold: 0.1
         });
         document.querySelectorAll('section[data-nav-color]').forEach(section => {
             observer.observe(section);
