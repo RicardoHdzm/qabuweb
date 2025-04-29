@@ -47,6 +47,12 @@ div, img {
   height: auto;
 }
 
+.img-ubicacion{
+  width: 100%;
+  height: auto;
+}
+
+
 .navicon{
   width: 10rem;
 }
@@ -977,9 +983,7 @@ textarea{
   .mod-mobile{
     display: block!important;
   }
-}
 
-@media only screen and (max-width: 1400px) {
   .navbar.light {
     background-color: #327768;
   }
@@ -1001,16 +1005,28 @@ textarea{
     padding-bottom: 15rem!important ;
   }
 
-    #modelos{
-    text-align: center;
+h1, h2 {
+    font-size: 2.75rem;
   }
 
-  #ubicacion{
-    text-align: center;
+  .section-s h2{
+    font-size: 2rem;
+  }
+
+  h3, h4{
+    font-size: 1.5rem;
+  }
+
+
+  p, .btn, .form-check-label{
+    font-size: 1.2rem;
+  }
+
+  .cardx h3{
+    font-size: 2.5rem;
   }
 
 }
-
 
 
 /* Tablets (768px - 1024px) */
@@ -1070,6 +1086,17 @@ textarea{
 
   .mod-desktop{
     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 992px){
+  #modelos{
+    text-align: center;
+  }
+
+  #ubicacion{
+    text-align: center;
   }
 }
 
