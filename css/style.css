@@ -1096,6 +1096,11 @@ textarea{
   .navbar.light {
     background-color: #327768;
   }
+
+  .owl-carousel .owl-item.active.center {
+    transform: scale(1.0); /* Ítem central más grande */
+    z-index: 2;
+  }
 }
 
 
@@ -1122,6 +1127,10 @@ textarea{
   .overlay-text .fa-brands{
     color: #fff;
     font-size: 2.5rem;
+  }
+
+  .cardx{
+    height: 18rem;
   }
 
 
