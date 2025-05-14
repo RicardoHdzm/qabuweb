@@ -1083,9 +1083,18 @@ textarea{
 }
 
 
+
 @media only screen and (max-width: 1200px){
   #modelos{
     text-align: center;
+  }
+  .decoracion-estrellas {
+    bottom: -30px!important;
+    left: 45%!important;
+  }
+
+  .rounded-custom{
+    border-radius: 0px!important;
   }
 }
 
@@ -1138,7 +1147,7 @@ textarea{
     font-size: 1rem;
   }
 
-th, td {
+  th, td {
     font-size: .8rem;
   }
 
