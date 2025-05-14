@@ -1134,8 +1134,12 @@ textarea{
   }
 
 
-  h4, p, .btn, .form-check-label {
+  h4, p, .btn, .form-check-label{
     font-size: 1rem;
+  }
+
+th, td {
+    font-size: .8rem;
   }
 
   #amenidades li{
@@ -1319,4 +1323,10 @@ textarea{
 .rounded-custom {
   border-radius: 16px;
   position: relative; /* Necesario para que la imagen se posicione relativa a este bloque */
+}
+
+.container-custom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
