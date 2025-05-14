@@ -1258,3 +1258,65 @@ textarea{
 .mobile-col{
   background-color: #fff;
 }
+
+.descuento {
+  font-size: x-small;
+  background-color: #357768;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 4px; 
+  border-radius: 6px; 
+  display: inline-block; 
+}
+
+.tabla-financiamiento {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-financiamiento th,
+.tabla-financiamiento td {
+  border: none;
+  height: 4.5rem;
+  text-align: center;
+}
+
+.tabla-financiamiento thead {
+  border-bottom: 1px solid #000;
+}
+
+.tabla-financiamiento tbody tr:not(:last-child) {
+  border-bottom: 1px solid #000; 
+}
+
+.tabla-financiamiento th {
+  background-color: transparent; 
+  font-weight: 600;
+}
+
+.tabla-bg{
+  background-color: red!important;
+}
+
+.rounded-custom {
+  border-radius: 15px;
+}
+
+.decoracion-estrellas {
+  position: absolute;
+  bottom: -16px; /* La empuja hacia abajo, fuera del borde */
+  left: -30px;   /* La empuja hacia la izquierda, fuera del borde */
+  width: 80px;   /* Ajusta según el tamaño real */
+  height: auto;
+  z-index: 1;
+}
+
+/* Asegúrate que el contenedor permite que los elementos se salgan */
+.back2 {
+  overflow: visible;
+}
+
+.rounded-custom {
+  border-radius: 16px;
+  position: relative; /* Necesario para que la imagen se posicione relativa a este bloque */
+}
