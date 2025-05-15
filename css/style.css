@@ -133,8 +133,8 @@ h1{
 
 .contenido {
   position: relative;
-  z-index: 1; /* Para estar encima del video */
-  color: white; /* o negro si el video es claro */
+  z-index: 1; 
+  color: white; 
 }
 
 h2 {
