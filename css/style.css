@@ -1038,6 +1038,18 @@ textarea{
 
 }
 
+@media only screen and (max-width: 1450px) {
+  .decoracion-estrellas {
+    bottom: -30px!important;
+    left: 50%!important;
+    transform: translateX(-50%);
+  }
+
+  .rounded-custom{
+    border-radius: 0px!important;
+  }
+}
+
 
 #ubicacion span{
   color: #327768;
@@ -1267,4 +1279,69 @@ textarea{
   background-color: #fff;
 }
 
+.descuento {
+  font-size: x-small;
+  background-color: #357768;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 4px; 
+  border-radius: 6px; 
+  display: inline-block; 
+}
 
+.tabla-financiamiento {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-financiamiento th,
+.tabla-financiamiento td {
+  border: none;
+  height: 4.5rem;
+  text-align: center;
+}
+
+.tabla-financiamiento thead {
+  border-bottom: 1px solid #000;
+}
+
+.tabla-financiamiento tbody tr:not(:last-child) {
+  border-bottom: 1px solid #000; 
+}
+
+.tabla-financiamiento th {
+  background-color: transparent; 
+  font-weight: 600;
+}
+
+.tabla-bg{
+  background-color: red!important;
+}
+
+.rounded-custom {
+  border-radius: 15px;
+}
+
+.decoracion-estrellas {
+  position: absolute;
+  bottom: -16px; 
+  left: -30px;   
+  width: 80px;  
+  height: auto;
+  z-index: 1;
+}
+
+.back2 {
+  overflow: visible;
+}
+
+.rounded-custom {
+  border-radius: 16px;
+  position: relative;
+} 
+
+.container-custom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
