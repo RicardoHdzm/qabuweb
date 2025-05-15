@@ -1323,7 +1323,6 @@ textarea{
 }
 
 .decoracion-estrellas {
-  position: absolute;
   bottom: -16px; 
   left: -30px;   
   width: 80px;  
@@ -1332,12 +1331,10 @@ textarea{
 }
 
 .back2 {
-  overflow: visible;
 }
 
 .rounded-custom {
   border-radius: 16px;
-  position: relative;
 } 
 
 .container-custom {
